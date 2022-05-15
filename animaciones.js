@@ -98,7 +98,7 @@ function history(valorUser,valorMaq){
   document.getElementById('historial').innerHTML= '';  
 //   historial.unshift('img src="valorUser"' + '-' + valorMaq);.
   historial.unshift(`<img class="w-10 h-9" src="imagenes/historico/${valorUser}"/> - <img class="w-10 h-9" src="imagenes/historico/${valorMaq}"/>`);
-  if (historial.length > 5 ){    //longitud del array
+  if (historial.length > 4 ){    //longitud del array
     historial.pop();   //eliminar el ultimo elemento de un array
   }
   for (const elemento of historial){
